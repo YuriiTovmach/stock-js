@@ -1,3 +1,16 @@
+let div = document.createElement("DIV");
+  document.body.style.backgroundColor = "red";
+  div.style.height = 1200 + "px";
+  div.style.width = 1200 + "px";
+  div.style.backgroundColor = "green";
+  div.style.border = 40 + "px";
+  div.style.border = "solid";
+  div.style.borderColor = "black";
+
+  console.log(div);
+  document.body.appendChild(div);
+
+
 let json = `{
 	   	"id": 1,
         "name": "Проволока низкоуглеродистая Ø 0,4 мм ГОСТ 3282-74 (ОК)",
